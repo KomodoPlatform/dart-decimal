@@ -10,7 +10,7 @@ environment:
 dependencies:
   rational: # 0.3.8 - DONE: Secure code reviewed 44f3251
     git:
-      url: https://github.com/KomodoPlatform/dart-rational
+      url: git://github.com/KomodoPlatform/dart-rational.git
       ref: 44f3251dca11df633d1a392f5c93ea1c0b68bd37
 dev_dependencies:
   test: ^1.2.0

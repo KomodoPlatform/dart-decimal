@@ -8,9 +8,9 @@ homepage: https://github.com/a14n/dart-decimal
 environment:
   sdk: '>=2.0.0-dev.66.0 <3.0.0'
 dependencies:
-  rational: #^0.3.6 - TODO: review cf3ff68 (0.3.6)
+  rational: # 0.3.8 - DONE: Secure code reviewed 44f3251
     git:
-      url: git://github.com/KomodoPlatform/dart-rational.git
-      ref: cf3ff683a1b20a429170fca568dd7b3f31e9fcee
+      url: https://github.com/KomodoPlatform/dart-rational
+      ref: 44f3251dca11df633d1a392f5c93ea1c0b68bd37
 dev_dependencies:
   test: ^1.2.0
